@@ -326,6 +326,8 @@ body {
 .team-list-cards {
   display: flex;
   list-style-type: none;
+  justify-content: center;
+  margin-right: auto;
   gap: 24px;
 }
 .team-cards {
@@ -390,7 +392,6 @@ body {
   height: 40px;
 }
 .team-icon {
-  justify-content: center;
   width: 16px;
   height: 16px;
 }
@@ -541,10 +542,6 @@ body {
   width: 264px;
 }
 
-.footer-icon-section {
-  align-items: center;
-  justify-content: center;
-}
 .footer-icon-text {
   display: flex;
   align-items: center;
