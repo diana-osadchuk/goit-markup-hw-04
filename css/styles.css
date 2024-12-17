@@ -524,6 +524,11 @@ body {
   align-items: baseline;
   justify-content: flex-start;
 }
+.container-end {
+  display: flex;
+
+  align-items: baseline;
+}
 .container-footer {
   display: flex;
   flex-direction: column;
