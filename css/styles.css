@@ -315,6 +315,7 @@ body {
 .our-team {
   margin-bottom: 72px;
   text-transform: capitalize;
+  justify-content: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -429,8 +430,8 @@ body {
   gap: 48px 24px;
   padding-bottom: 92px;
 }
-.overlay-portfolio-list:hover .portfolio-overlay-text,
-.overlay-portfolio-list:focus .portfolio-overlay-text {
+.portfolio-list:hover .portfolio-overlay-text,
+.portfolio-list:focus .portfolio-overlay-text {
   transform: translateY(0);
 }
 
@@ -440,6 +441,7 @@ body {
 }
 
 .portfolio-overlay-text {
+  position: absolute;
   top: 0;
   left: 0;
   font-weight: 400;
@@ -448,7 +450,7 @@ body {
   letter-spacing: 0.02em;
   width: 100%;
   height: 100%;
-  color: var(--text-color);
+  color: #f4f4fd;
   position: absolute;
   padding: 40px 32px;
   background-color: #4d5ae5;
@@ -503,7 +505,6 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   display: inline-block;
-  margin-bottom: 16px;
 }
 .footer-studio {
   font-family: "Raleway", sans-serif;
@@ -522,6 +523,8 @@ body {
   justify-content: flex-start;
 }
 .container-footer {
+  display: flex;
+  flex-direction: column;
   margin-right: 120px;
   margin-left: 156px;
 }
