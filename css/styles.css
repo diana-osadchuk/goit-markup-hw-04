@@ -526,7 +526,7 @@ body {
 }
 .container-end {
   display: flex;
-
+  margin-right: 120px;
   align-items: baseline;
 }
 .container-footer {
