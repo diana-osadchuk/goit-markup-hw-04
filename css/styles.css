@@ -283,9 +283,6 @@ body {
 .team-section {
   background-color: #f4f4fd;
   padding: 120px 0;
-  border: 1px solid #000;
-  width: 1440px;
-  height: 780px;
 }
 .team-text {
   text-transform: capitalize;
